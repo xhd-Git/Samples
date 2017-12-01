@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AnimatorSample</string>
+    <string name="value_animator_title">使用ValueAnimator实现View颜色变化</string>
+    <string name="value_animator_detail">颜色：Red -> Blue \n点击开始播放 </string>
+    <string name="object_animator_title">Loading 无限旋转效果</string>
+    <string name="object_animator_detail">左侧是创建ObjectAnimator对象实现的，使用线性插值器\n右侧是使用ViewPropertyAnimator实现的，使用默认插值器\n点击loading图开始播放</string>
+    <string name="xml_animator_title">xml 动画举例</string>
+    <string name="xml_animator_detail">一些控件以及Activity切换等修改系统效果的时候只能使用xml动画\n这里对话框显示和消失的动画其实是用View Animation写的哈哈哈</string>
 </resources>

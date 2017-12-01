@@ -1,6 +1,7 @@
 package cf.reol.animatorsample;
 
 import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
@@ -27,6 +28,7 @@ public class ColorView extends View {
     }
 
     private void init() {
+
         valueAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), mColor, Color.rgb(0,0,255));
         valueAnimator.setDuration(3000);
         valueAnimator.setInterpolator(new LinearInterpolator());
@@ -37,6 +39,7 @@ public class ColorView extends View {
                 invalidate();
             }
         });
+
     }
 
     public ColorView(Context context, @Nullable AttributeSet attrs) {
